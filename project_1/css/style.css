@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(../img/background.jpeg) no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+}
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    width: 400px;
+}
+button, output {
+    flex-basis: 45%;
+    padding: 11px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn {
+    border: none;
+    background: #4cb449;
+}
+output {
+    margin: 0 auto;
+    background: #363837;
+}
